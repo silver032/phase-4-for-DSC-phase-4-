@@ -1,0 +1,27 @@
+# Ignore SalesKaggle3.csv file
+/mnt/data/SalesKaggle3.csv
+
+# Ignore data_prepared.csv file
+/mnt/data/data_prepared.csv
+
+# Other ignore patterns
+# Ignore all .log files
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore compiled files
+*.class
+*.o
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore environment variables file
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
