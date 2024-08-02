@@ -54,16 +54,19 @@ Fine-tuned using RandomizedGridsearch techniques to optimize performance, focuse
 
 # Overall Datashape 
 
-
+![phase4image2](https://github.com/silver032/phase-4-for-DSC-phase-4-/blob/main/images/phase4image2.png)
 
 Large number of binaries
 
-
 # Heatmap vs target
+
+![phase4im3.1](https://github.com/silver032/phase-4-for-DSC-phase-4-/blob/main/images/phase4im3.1.png)
 
 for item sold, shows high frequency outliers
 
 # Feature correlation matrix
+
+![phas4img4.5](https://github.com/silver032/phase-4-for-DSC-phase-4-/blob/main/images/phas4img4.5.png)
 
 Shows low correlation between features and targets
 
@@ -71,19 +74,24 @@ Shows low correlation between features and targets
 
 After running various models, our R^2 shows that randomforest and catboost had the best results. 
 
+![p4image3](https://github.com/silver032/phase-4-for-DSC-phase-4-/blob/main/images/p4image3.png)
 
 - Ran 8 different models for multicolinarity 
 
 # Hypertuned Model Results
 
+![phase4image6](https://github.com/silver032/phase-4-for-DSC-phase-4-/blob/main/images/phase4image6.png)
 
 Both models improved slightly, indiciating undersampling. With more time can run more robust hypertuning. 
 
 # Feature importance for random forest
+![p4image7](https://github.com/silver032/phase-4-for-DSC-phase-4-/blob/main/images/p4image7.png)
 
 Shows that Strength Factor and price have biggest impact on item count.
 
+# Residual of Random Forest
 
+![p4image6](https://github.com/silver032/phase-4-for-DSC-phase-4-/blob/main/images/p4image6.png)
 
 # Recommendations
 
@@ -98,5 +106,3 @@ Shows that Strength Factor and price have biggest impact on item count.
 - Utilizing a classifier approach, determining stock or not
 - Handling the preprocessing differently 
 - Using cross validation, ensemble methods, different sampling techniques to improve the model 
-
-
